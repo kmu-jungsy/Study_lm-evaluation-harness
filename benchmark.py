@@ -1,6 +1,6 @@
 from modeling_llamagear import LlamaForCausalLM_GEARKIVI
 
-from modeling_llama_kivi import LlamaForCausalLM_KIVI
+from modeling_llama_GroupQuantization import LlamaForCausalLM_KIVI
 from modeling_llama_pre_compress import LlamaForCausalLM_pre_comp
 from transformers import LlamaConfig, AutoTokenizer, LlamaForCausalLM
 from transformers import BitsAndBytesConfig
